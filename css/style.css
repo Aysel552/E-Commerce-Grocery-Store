@@ -243,7 +243,7 @@ section{
 .header .login-form{
     position: absolute;
     top: 110%;
-    /* right: -110%; */
+    right: -110%;
     width: 35rem;
     box-shadow: var(--box-shadow);
     padding: 2rem;
@@ -280,6 +280,45 @@ section{
     color: var(--light-color);
 }
 
+.header .login-form p a{
+    color:var(--orange);
+    text-decoration: underline;
+}
+
+/* Adding style to home section */
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url(../images/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;  
+}
+
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content h3 span {
+    color: var(--orange);
+}
+
+.home .content p{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 
