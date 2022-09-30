@@ -526,8 +526,31 @@ section{
 }
 
 .blogs .box-container .box .content .icons a:hover{
-    color:var(--black)
+    color:var(--black);
 }
+
+.blogs .box-container .box .content .icons a i{
+    color: var(--orange);
+}
+
+.blogs .box-container .box .content h3{
+    line-height: 1.8;
+    color: var(--black);
+    font-size: 2.2rem;
+    padding: .5rem 0;
+}
+
+.blogs .box-container .box .content p{
+    line-height: 1.8;
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+/* Adding style to footer section */
+
+
+
 
 
 
