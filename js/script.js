@@ -9,3 +9,9 @@ let searchForm = document.querySelector(".search-form");
 
 let shoppingCart = document.querySelector(".shopping-cart");
 
+document.querySelector("#cart-btn").onClick = () =>{
+    shoppingCart.classList.toggle('active');
+
+    searchForm.classList.remove('active');
+}
+
