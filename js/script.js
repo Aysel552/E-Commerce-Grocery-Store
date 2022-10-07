@@ -11,7 +11,10 @@ let shoppingCart = document.querySelector(".shopping-cart");
 
 document.querySelector("#cart-btn").onClick = () =>{
     shoppingCart.classList.toggle('active');
-
     searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
+
+
 
