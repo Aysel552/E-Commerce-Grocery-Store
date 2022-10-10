@@ -16,5 +16,14 @@ document.querySelector("#cart-btn").onClick = () =>{
     navbar.classList.remove('active');
 }
 
+let loginForm = document.querySelector('.login-form');
+
+document.querySelector('#login-btn'.onClick =() =>{
+    loginForm.classList.toggle('active');
+    searchForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
+    navbar.classList.remove("active");
+})
+
 
 
