@@ -25,5 +25,31 @@ document.querySelector('#login-btn'.onClick =() =>{
     navbar.classList.remove("active");
 })
 
+let navbar = document.querySelector(".navbar");
+
+document.querySelector("#menu-btn").onClick =() =>{
+    navbar.classList.toggle("active");
+    searchForm.classList.remove("active");
+    shoppingCart.classList.remove("active");
+    loginForm.classList.remove("active");
+}
+
+window.onscroll =() =>{
+    searchForm.classList.remove("active");
+    shoppingCart.classList.remove("active");
+    loginForm.classList.remove("active");
+    navbar.classList.remove("active")
+}
+
+let swiper = new Swiper(".product-slider",{
+    loop: true,
+    spaceBetween: 20,
+    autoplay:{
+        delay: 7500,
+        disableOnInteraction: false,
+    },
+    centeredSlides: true,
+})
+
 
 
